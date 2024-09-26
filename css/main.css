@@ -1,16 +1,11 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(255, 190, 190);
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
@@ -68,4 +63,20 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  
+  left: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }
